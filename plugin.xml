@@ -63,4 +63,15 @@
     </config-file>
     <source-file src="src/winphone/NativePageTransitions.cs" />
   </platform>
+  
+    <!-- windows -->
+  <platform name="windows">
+    <js-module src="src/windows/NativePageTransitionsProxy.js" name="NativePageTransitionsProxy">
+      <merges target="" />
+    </js-module>
+
+    <!-- <framework src="src/windows/lib/x86/NativePageTransitions.winmd" target-dir="x86" arch="x86" custom="true" versions=">8.1" />
+    <framework src="src/windows/lib/x64/NativePageTransitions.winmd" target-dir="x64" arch="x64" custom="true" versions=">8.1" />
+    <framework src="src/windows/lib/ARM/NativePageTransitions.winmd" target-dir="ARM" arch="ARM" custom="true" versions=">8.1" /> -->
+  </platform>
 </plugin>
